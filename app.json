@@ -7,6 +7,14 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "plugins": [
+      [
+          "react-native-auth0",
+          {
+              "domain": "dev-3dg3ifid2ehnnk45.us.auth0.com"
+          }
+      ]
+  ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
